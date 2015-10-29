@@ -1,0 +1,29 @@
+<link rel="import"
+      href="bower_components/polymer/polymer.html">
+
+<script>
+  // register a new element called proto-element
+ Polymer({
+
+  is: 'proto-element',
+
+   properties: {
+      user: String,
+      manager: {
+        type: Boolean,
+        notify: true
+      }
+    },
+
+    attached: function() {
+      // render
+      this.textContent = 'Hello World, my user is ' + (this.user || 'nobody') + '.\n' +
+        'This user is ' + (this.manager ? '' : 'not') + ' a manager.';
+    }
+
+  });
+
+</script>
+
+
+

@@ -1,0 +1,35 @@
+{
+  "name": "polymeter",
+  "version": "0.0.0",
+  "authors": [
+    "mario27584 <mario27584@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#1.1.0",
+    "gold-cc-cvc-input": "PolymerElements/gold-cc-cvc-input#~1.0.4",
+    "firebase-element": "GoogleWebComponents/firebase-element#~1.0.6",
+    "gold-cc-expiration-input": "PolymerElements/gold-cc-expiration-input#~1.0.5",
+    "gold-cc-input": "PolymerElements/gold-cc-input#~1.0.6",
+    "gold-email-input": "PolymerElements/gold-email-input#~1.0.5",
+    "neon-animation": "PolymerElements/neon-animation#~1.0.6",
+    "paper-header-panel": "PolymerElements/paper-header-panel#~1.0.5",
+    "paper-toolbar": "PolymerElements/paper-toolbar#~1.0.4",
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#~1.0.3",
+    "paper-icon-button": "PolymerElements/paper-icon-button#~1.0.3",
+    "paper-tabs": "PolymerElements/paper-tabs#~1.0.3",
+    "iron-icons": "PolymerElements/iron-icons#~1.0.3",
+    "iron-flex-layout": "PolymerElements/iron-flex-layout#~1.0.3"
+  }
+}
